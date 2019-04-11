@@ -1,27 +1,5 @@
 # My dwm (Dynamic Window Manager) build
-
-![Screenshot of my desktop](https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles04.png) 
-dwm is an extremely fast, small, and dynamic window manager for X.
-
-# My Keybindings
-
-The MODKEY is set to the `Super` key (aka the `Windows` key)
-
-| Keybinding | Action |
-| :--- | :--- |
-| `MODKEY + Keypad Insert` | opens run launcher (dmenu is the run launcher but can be easily changed) |
-| `MODKEY + Enter` | opens terminal (st is the terminal but can be easily changed) |
-| `MODKEY + SHIFT + c` | closes window with focus |
-| `MODKEY + SHIFT + q` | quits dwm |
-| `MODKEY + j` | focus stack +1 (switches focus between windows in the stack) |
-| `MODKEY + k` | focus stack -1 (switches focus between windows in the stack) |
-| `MODKEY + SHIFT + j` | rotate stack +1 (rotates the windows in the stack) |
-| `MODKEY + SHIFT + k` | rotate stack -1 (rotates the windows in the stack) |
-| `MODKEY + h` | setmfact -0.05 (decreases window width) |
-| `MODKEY + l` | setmfact +0.05 (increases window width) |
-| `MODKEY + ,` | focusmon -1 (switches focus between monitors) |
-| `MODKEY + .` | focusmon +1 (switches focus between monitors) |
-
+|
 # Requirements
 
 In order to build dwm you need the Xlib header files.
